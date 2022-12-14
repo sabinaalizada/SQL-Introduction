@@ -31,10 +31,12 @@ SELECT * FROM Teachers
 UPDATE Teachers
 SET Name='Khanim'
 WHERE Id=3
+SELECT * FROM Teachers
 
 DELETE FROM Teachers
 WHERE Id=3
 
+SELECT * FROM Teachers
 
 CREATE TABLE Students
 (
@@ -65,8 +67,12 @@ UPDATE Students
 SET Name='Gunel'
 WHERE Id=3
 
+SELECT * FROM Students
+
 DELETE FROM Students
 WHERE Id=3
+
+SELECT * FROM Students
 
 TRUNCATE TABLE Teachers
 SELECT * FROM Teachers
@@ -78,4 +84,3 @@ SELECT * FROM Students
 DROP TABLE Teachers
 
 DROP TABLE Students
-
